@@ -18,7 +18,7 @@ class GoogleLoginController extends Controller
 
     public function handleGoogleCallback()
     {
-        $client = new Client(['verify' => '/CS262_proj/cacert.pem']);
+        $client = new Client(['verify' => '/CS262_Section2_Team10_Final/CS262_Team10_Frontend_Section2_AY2023-2024-main/cacert.pem']);
         $googleUser = Socialite::driver('google')
             ->setHttpClient($client)
             ->stateless()
