@@ -16,7 +16,7 @@ php artisan storage:link
 
 In `app\Http\Controllers\ContactMailController.php`, on line 26, the `Mail::to` method will send an email to the registered email address. Note that Mailtrap can only send emails to specific addresses, so it will work for `ourden.cs262@gmail.com`.
 
-#### Backend
+#### API
 
 In `app\Http\Controllers\Auth\LoginRegisterController.php`, on line 56, the `Mail::to` method will send an email to the registered email address. Similar to the frontend, Mailtrap can only send emails to specific addresses. Therefore, it will work for `ourden.cs262@gmail.com`. However, you can change the `MAIL` environment variable to `sandbox` to send emails to the Mailtrap account.
 
