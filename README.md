@@ -1,7 +1,4 @@
 # CS262_Team10_API_Section2_AY2023-2024
----
-
-## Setting Up the Project
 
 To utilize all functionalities of this project, please follow the steps below:
 
