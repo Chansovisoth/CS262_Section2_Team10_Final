@@ -22,7 +22,7 @@ In `app\Http\Controllers\Auth\LoginRegisterController.php`, on line 56, the `Mai
 
 ### .env File Configuration
 
-Ensure your `.env` file is configured correctly for the program to work. Here is a sample configuration:
+To ensure the `.env` file is configured correctly, copy and paste the content below into the '.env' file:
 
 ```env
 APP_NAME=Laravel
